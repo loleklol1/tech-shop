@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "newLaunches": [
+      { "id": "1", "name": "Google Pixel 8", "price": 1160, "discountPrice": 960, "rating": 5, "reviews": 4, "img": "img/pixel8.png" },
+      { "id": "2", "name": "Google Watch 2", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/googlewatch2.png" },
+      { "id": "3", "name": "Google Buds 2", "price": 1160, "discountPrice": 960, "rating": 5, "reviews": 4, "img": "img/googlebuds2.png" },
+      { "id": "4", "name": "Apple Macbook Air", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/applemacbookair.png" },
+      { "id": "5", "name": "Signature Acoustics", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/signatureacoustics.png" }
+    ],
+    "insOffer": [
+      { "id": "6", "name": "Google Pixel 8", "price": 1160, "discountPrice": 960, "rating": 5, "reviews": 4, "img": "img/pixel8.png" },
+      { "id": "7", "name": "Google Watch 2", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/googlewatch2.png" },
+      { "id": "8", "name": "Google Buds 2", "price": 1160, "discountPrice": 960, "rating": 5, "reviews": 4, "img": "img/googlebuds2.png" },
+      { "id": "9", "name": "Apple Macbook Air", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/applemacbookair.png" },
+      { "id": "10", "name": "Signature Acoustics", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/signatureacoustics.png" }
+    ],
+    "bestSellers": [
+      { "id": "11", "name": "Google Pixel 8", "price": 1160, "discountPrice": 960, "rating": 5, "reviews": 4, "img": "img/pixel8.png" },
+      { "id": "12", "name": "Google Watch 2", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/googlewatch2.png" },
+      { "id": "13", "name": "Google Buds 2", "price": 1160, "discountPrice": 960, "rating": 5, "reviews": 4, "img": "img/googlebuds2.png" },
+      { "id": "14", "name": "Apple Macbook Air", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/applemacbookair.png" },
+      { "id": "15", "name": "Signature Acoustics", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/signatureacoustics.png" }
+    ]
+  }
+}

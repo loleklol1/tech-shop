@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Tech Sale</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="dashboard-body">
+    <header class="main-header">
+        <nav class="nav-menu" id="navMenu">
+            <div class="logo"><strong>TechSale</strong></div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="aboutus.html">About Us</a>
+            </div>
+            <div class="search-div">
+                <input placeholder="What are you looking for?">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icons">
+                <i class="fa-regular fa-heart" style="color: rgb(255, 255, 255);"></i>
+                <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255);"></i>
+                <i class="fa-regular fa-user" style="color: rgb(255, 255, 255);"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="dashboard-main">
+        <div class="dashboard-container">
+            
+            <aside class="sidebar">
+                <ul class="sidebar-menu">
+                    <li class="active"><a href="#"><i class="fa-solid fa-border-all"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fa-regular fa-user"></i> Account Details</a></li>
+                    <li><a href="#"><i class="fa-solid fa-clock-rotate-left"></i> Order History</a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Shopping Cart</a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart"></i> Wishlist</a></li>
+                    <li><a href="#"><i class="fa-regular fa-address-card"></i> Address</a></li>
+                    <li><a href="#"><i class="fa-solid fa-wallet"></i> Wallet</a></li>
+                    <li><a href="#"><i class="fa-solid fa-ticket"></i> coupons</a></li>
+                    <li><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Log-out</a></li>
+                </ul>
+            </aside>
+
+            <section class="dashboard-content">
+                
+                <div class="stats-row">
+                    <div class="stat-box box-blue">
+                        <div class="stat-icon"><i class="fa-solid fa-rocket"></i></div>
+                        <div class="stat-info">
+                            <h3>154</h3>
+                            <p>Total Orders</p>
+                        </div>
+                    </div>
+                    <div class="stat-box box-orange">
+                        <div class="stat-icon"><i class="fa-solid fa-receipt"></i></div>
+                        <div class="stat-info">
+                            <h3>05</h3>
+                            <p>Pending Orders</p>
+                        </div>
+                    </div>
+                    <div class="stat-box box-green">
+                        <div class="stat-icon"><i class="fa-solid fa-box"></i></div>
+                        <div class="stat-info">
+                            <h3>149</h3>
+                            <p>Completed Orders</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="welcome-block">
+                    <h2><i class="fa-regular fa-clock"></i> Hello, John Doe</h2>
+                    <p>From your account dashboard. you can easily check & view your <a href="#">Recent Orders</a>, manage your <a href="#">Shipping and Billing Addresses</a> and edit your <a href="#">Password</a> and <a href="#">Account Details.</a></p>
+                </div>
+
+                <div class="info-cards-row">
+                    <div class="info-card">
+                        <div class="card-header">
+                            <h3>ACCOUNT INFO</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="user-profile-info">
+                                <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                                <div>
+                                    <h4>Name</h4>
+                                    <p class="loc"></p>
+                                </div>
+                            </div>
+                            <p><strong>Email:</strong> </p>
+                            <p><strong>Phone:</strong> </p>
+                            <button class="edit-btn">Edit Account</button>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-header">
+                            <h3>BILLING ADDRESS</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4>Name</h4>
+                            <p><br>Pin: </p>
+                            <p><strong>Phone Number:</strong> </p>
+                            <p><strong>Email:</strong> </p>
+                            <button class="edit-btn">Edit Address</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Exclusive</h3>
+                <h4>Subscribe</h4>
+                <p>Get 10% off your first order</p>
+                <form class="subscribe-form" action="#">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fa-regular fa-paper-plane"></i></button>
+                </form>
+            </div>
+            <div class="footer-column">
+                <h3>Support</h3>
+                <p>111 Bijoy sarani, Dhaka,<br> DH 1515, Bangladesh.</p>
+                <p>exclusive@gmail.com</p>
+                <p>+88015-88888-9999</p>
+            </div>
+            <div class="footer-column">
+                <h3>Account</h3>
+                <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Login / Register</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Link</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column app-column">
+                <h3>Download App</h3>
+                <p class="app-discount">Save $3 with App New User Only</p>
+                <div class="app-links">
+                    <div class="qr-code">
+                        <img src="img/qr-code.png" alt="QR Code" style="background:#fff; width: 80px; height: 80px; display: block;">
+                    </div>
+                    <div class="store-buttons">
+                        <a href="#"><img src="img/google-play.png" alt="Google Play" style="width: 110px; background:#000; border:1px solid #fff; border-radius: 4px;"></a>
+                        <a href="#"><img src="img/app-store.png" alt="App Store" style="width: 110px; background:#000; border:1px solid #fff; border-radius: 4px; margin-top: 5px;"></a>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p><i class="fa-regular fa-copyright"></i> Copyright TechSale 2026. All right reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
