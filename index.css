@@ -974,3 +974,233 @@ main {
         padding: 35px 20px;
     }
 }
+/* =========================================
+   Mobile Adaptation (Media Queries)
+========================================= */
+@media (max-width: 992px) {
+    .product-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav-links a {
+        margin: 0 10px;
+    }
+
+    .search-div {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .search-div input {
+        width: 100%;
+    }
+
+    .icons {
+        margin-top: 10px;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .promo-banner {
+        flex-direction: column;
+        padding: 30px 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .promo-image {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #shadow-image, #JBL {
+        position: static !important;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .app-links {
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+    
+    .service-row {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .section-heading {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+    
+    .timer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+/* =========================================================
+   Додаткова мобільна адаптація (Кошик та приховування банерів)
+========================================================= */
+@media (max-width: 768px) {
+    
+    /* 1. Приховування банерів за вашим запитом */
+    /* Приховуємо верхній банер (інформаційний рядок над шапкою) */
+    .top-bar, 
+    .top-banner, 
+    .header-banner,
+    .top-header { 
+        display: none !important; 
+    }
+    
+    /* Приховуємо великий інтерактивний банер з акцією на колонку (JBL) */
+    .promo-banner,
+    .interactive-banner { 
+        display: none !important; 
+    }
+
+    /* 2. Адаптація сторінки кошика (cart.html) */
+    .cart-layout {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+
+    .cart-header {
+        display: none !important;
+    }
+
+  
+    .cart-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        background: #ffffff;
+        padding: 20px;
+        border: 1px solid #eaeaea;
+        border-radius: 6px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    }
+
+
+    .cart-item-info {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .cart-product-img, 
+    .cart-row img {
+        width: 90px;
+        height: auto;
+    }
+
+
+    .cart-quantity,
+    .quantity-stage,
+    .cart-quantity-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+
+    .cart-price, 
+    .cart-subtotal {
+        font-size: 1.05rem;
+        font-weight: 600;
+    }
+
+
+    .cart-total-block,
+    .cart-collaterals,
+    .cart-total {
+        width: 100% !important;
+        margin-top: 25px;
+        float: none !important;
+    }
+
+
+    .cart-actions,
+    .coupon-wrapper {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .cart-actions button,
+    .cart-actions a,
+    .coupon-wrapper input,
+    .coupon-wrapper button {
+        width: 100% !important;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .cart-row {
+        padding: 15px 10px;
+    }
+    
+    .cart-price::before {
+        content: "Ціна: ";
+        font-weight: normal;
+        color: #777;
+    }
+    
+    .cart-subtotal::before {
+        content: "Разом: ";
+        font-weight: normal;
+        color: #777;
+    }
+}

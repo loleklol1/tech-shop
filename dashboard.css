@@ -240,3 +240,49 @@
     background: #2b7af1;
     color: #ffffff;
 }
+
+/* =========================================
+   Mobile Adaptation (Media Queries)
+========================================= */
+@media (max-width: 992px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .sidebar-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .sidebar-menu li {
+        flex: 1 1 auto;
+        text-align: center;
+    }
+
+    .sidebar-menu li a {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .stats-row {
+        flex-direction: column;
+    }
+
+    .info-cards-row {
+        flex-direction: column;
+    }
+    
+    .sidebar-menu {
+        flex-direction: column;
+    }
+    
+    .sidebar-menu li a {
+        justify-content: flex-start;
+    }
+}

@@ -150,3 +150,32 @@
 .send-btn:hover {
     background: #333333;
 }
+
+/* =========================================
+   Mobile Adaptation (Media Queries)
+========================================= */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        flex: 1 1 auto;
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .contact-form-wrapper {
+        padding: 25px 20px;
+    }
+
+    .input-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .input-row input {
+        width: 100%;
+        min-width: 100%;
+    }
+}
