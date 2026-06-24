@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist - Tech Store</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-menu" id="navMenu">
+            <div class="logo"><strong>TechSale</strong></div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="aboutus.html">About Us</a>
+            </div>
+            <div class="search-div">
+                <input placeholder="What are you looking for?">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icons">
+                <a href="wishlist.html" class="icon-link js-wishlist-link"><i class="fa-regular fa-heart"></i><span class="icon-count wishlist-count">0</span></a>
+                <a href="cart.html" class="icon-link js-cart-link"><i class="fa-solid fa-cart-shopping"></i><span class="icon-count cart-count">0</span></a>
+                <a href="dashboard.html" class="icon-link"><i class="fa-regular fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="shop-page-main">
+        <div class="page-top-row">
+            <h1>My Wishlist</h1>
+            <button id="move-all-cart" class="outline-btn">Move All To cart</button>
+        </div>
+        <section id="wishlist-list" class="wishlist-list"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
