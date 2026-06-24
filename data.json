@@ -1,25 +1,310 @@
 {
   "sections": {
     "newLaunches": [
-      { "id": "1", "name": "Google Pixel 8", "price": 1160, "discountPrice": 960, "rating": 5, "reviews": 4, "img": "img/pixel8.png" },
-      { "id": "2", "name": "Google Watch 2", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/googlewatch2.png" },
-      { "id": "3", "name": "Google Buds 2", "price": 1160, "discountPrice": 960, "rating": 5, "reviews": 4, "img": "img/googlebuds2.png" },
-      { "id": "4", "name": "Apple Macbook Air", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/applemacbookair.png" },
-      { "id": "5", "name": "Signature Acoustics", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/signatureacoustics.png" }
+      {
+        "id": "1",
+        "name": "Google Pixel 8",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 5,
+        "reviews": 4,
+        "img": "img/pixel8.png",
+        "category": "Phones",
+        "description": "Google Pixel 8 combines a bright OLED display, powerful Google Tensor performance and an advanced camera system for everyday photos, video and productivity.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "Black",
+          "White"
+        ],
+        "stock": true
+      },
+      {
+        "id": "2",
+        "name": "Google Watch 2",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 4,
+        "reviews": 4,
+        "img": "img/googlewatch2.png",
+        "category": "Wearables",
+        "description": "Google Watch 2 helps you track health, workouts, notifications and daily activity with a clean design and comfortable fit.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "Black",
+          "Silver"
+        ],
+        "stock": true
+      },
+      {
+        "id": "3",
+        "name": "Google Buds 2",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 5,
+        "reviews": 4,
+        "img": "img/googlebuds2.png",
+        "category": "Audio",
+        "description": "Google Buds 2 deliver compact wireless audio, clear calls and convenient controls for music, calls and everyday listening.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "White",
+          "Black"
+        ],
+        "stock": true
+      },
+      {
+        "id": "4",
+        "name": "Apple Macbook Air",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 4,
+        "reviews": 4,
+        "img": "img/applemacbookair.png",
+        "category": "Laptops",
+        "description": "Apple MacBook Air is a thin and lightweight laptop for study, work and entertainment with excellent battery life and smooth performance.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "Silver",
+          "Space Gray"
+        ],
+        "stock": true
+      },
+      {
+        "id": "5",
+        "name": "Signature Acoustics",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 4,
+        "reviews": 4,
+        "img": "img/signatureacoustics.png",
+        "category": "Audio",
+        "description": "Signature Acoustics headphones provide balanced sound, comfortable listening and reliable audio quality for daily use.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "Black",
+          "Brown"
+        ],
+        "stock": true
+      }
     ],
     "insOffer": [
-      { "id": "6", "name": "Google Pixel 8", "price": 1160, "discountPrice": 960, "rating": 5, "reviews": 4, "img": "img/pixel8.png" },
-      { "id": "7", "name": "Google Watch 2", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/googlewatch2.png" },
-      { "id": "8", "name": "Google Buds 2", "price": 1160, "discountPrice": 960, "rating": 5, "reviews": 4, "img": "img/googlebuds2.png" },
-      { "id": "9", "name": "Apple Macbook Air", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/applemacbookair.png" },
-      { "id": "10", "name": "Signature Acoustics", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/signatureacoustics.png" }
+      {
+        "id": "6",
+        "name": "Google Pixel 8",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 5,
+        "reviews": 4,
+        "img": "img/pixel8.png",
+        "category": "Phones",
+        "description": "Google Pixel 8 combines a bright OLED display, powerful Google Tensor performance and an advanced camera system for everyday photos, video and productivity.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "Black",
+          "White"
+        ],
+        "stock": true
+      },
+      {
+        "id": "7",
+        "name": "Google Watch 2",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 4,
+        "reviews": 4,
+        "img": "img/googlewatch2.png",
+        "category": "Wearables",
+        "description": "Google Watch 2 helps you track health, workouts, notifications and daily activity with a clean design and comfortable fit.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "Black",
+          "Silver"
+        ],
+        "stock": true
+      },
+      {
+        "id": "8",
+        "name": "Google Buds 2",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 5,
+        "reviews": 4,
+        "img": "img/googlebuds2.png",
+        "category": "Audio",
+        "description": "Google Buds 2 deliver compact wireless audio, clear calls and convenient controls for music, calls and everyday listening.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "White",
+          "Black"
+        ],
+        "stock": true
+      },
+      {
+        "id": "9",
+        "name": "Apple Macbook Air",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 4,
+        "reviews": 4,
+        "img": "img/applemacbookair.png",
+        "category": "Laptops",
+        "description": "Apple MacBook Air is a thin and lightweight laptop for study, work and entertainment with excellent battery life and smooth performance.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "Silver",
+          "Space Gray"
+        ],
+        "stock": true
+      },
+      {
+        "id": "10",
+        "name": "Signature Acoustics",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 4,
+        "reviews": 4,
+        "img": "img/signatureacoustics.png",
+        "category": "Audio",
+        "description": "Signature Acoustics headphones provide balanced sound, comfortable listening and reliable audio quality for daily use.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "Black",
+          "Brown"
+        ],
+        "stock": true
+      }
     ],
     "bestSellers": [
-      { "id": "11", "name": "Google Pixel 8", "price": 1160, "discountPrice": 960, "rating": 5, "reviews": 4, "img": "img/pixel8.png" },
-      { "id": "12", "name": "Google Watch 2", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/googlewatch2.png" },
-      { "id": "13", "name": "Google Buds 2", "price": 1160, "discountPrice": 960, "rating": 5, "reviews": 4, "img": "img/googlebuds2.png" },
-      { "id": "14", "name": "Apple Macbook Air", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/applemacbookair.png" },
-      { "id": "15", "name": "Signature Acoustics", "price": 1160, "discountPrice": 960, "rating": 4, "reviews": 4, "img": "img/signatureacoustics.png" }
+      {
+        "id": "11",
+        "name": "Google Pixel 8",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 5,
+        "reviews": 4,
+        "img": "img/pixel8.png",
+        "category": "Phones",
+        "description": "Google Pixel 8 combines a bright OLED display, powerful Google Tensor performance and an advanced camera system for everyday photos, video and productivity.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "Black",
+          "White"
+        ],
+        "stock": true
+      },
+      {
+        "id": "12",
+        "name": "Google Watch 2",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 4,
+        "reviews": 4,
+        "img": "img/googlewatch2.png",
+        "category": "Wearables",
+        "description": "Google Watch 2 helps you track health, workouts, notifications and daily activity with a clean design and comfortable fit.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "Black",
+          "Silver"
+        ],
+        "stock": true
+      },
+      {
+        "id": "13",
+        "name": "Google Buds 2",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 5,
+        "reviews": 4,
+        "img": "img/googlebuds2.png",
+        "category": "Audio",
+        "description": "Google Buds 2 deliver compact wireless audio, clear calls and convenient controls for music, calls and everyday listening.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "White",
+          "Black"
+        ],
+        "stock": true
+      },
+      {
+        "id": "14",
+        "name": "Apple Macbook Air",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 4,
+        "reviews": 4,
+        "img": "img/applemacbookair.png",
+        "category": "Laptops",
+        "description": "Apple MacBook Air is a thin and lightweight laptop for study, work and entertainment with excellent battery life and smooth performance.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "Silver",
+          "Space Gray"
+        ],
+        "stock": true
+      },
+      {
+        "id": "15",
+        "name": "Signature Acoustics",
+        "price": 1160,
+        "discountPrice": 960,
+        "rating": 4,
+        "reviews": 4,
+        "img": "img/signatureacoustics.png",
+        "category": "Audio",
+        "description": "Signature Acoustics headphones provide balanced sound, comfortable listening and reliable audio quality for daily use.",
+        "specs": {
+          "RAM": "8 GB",
+          "Storage": "128 GB"
+        },
+        "colors": [
+          "Black",
+          "Brown"
+        ],
+        "stock": true
+      }
     ]
   }
 }

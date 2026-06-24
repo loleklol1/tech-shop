@@ -17,13 +17,13 @@
                 <a href="aboutus.html">About Us</a>
             </div>
             <div class="search-div">
-                <input placeholder="What are you looking for?">
+                <input id="productSearch" placeholder="What are you looking for?">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
             <div class="icons">
-                <i class="fa-regular fa-heart" style="color: rgb(255, 255, 255);"></i>
-                    <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255);"></i>
-                <i class="fa-regular fa-user"  style="color: rgb(255, 255, 255);"></i>
+                <a href="wishlist.html" class="icon-link js-wishlist-link"><i class="fa-regular fa-heart"></i><span class="icon-count wishlist-count">0</span></a>
+                <a href="cart.html" class="icon-link js-cart-link"><i class="fa-solid fa-cart-shopping"></i><span class="icon-count cart-count">0</span></a>
+                <a href="dashboard.html" class="icon-link"><i class="fa-regular fa-user"></i></a>
             </div>
         </nav>
     </header>
@@ -32,6 +32,8 @@
         <section class="img-header">
             <div class="banner-placeholder"><img src="img/banner.png"></div>
         </section>
+
+        <p id="search-result-info" class="search-result-info"></p>
 
         <section class="product-section">
             <div class="section-heading">
@@ -111,7 +113,7 @@
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms Of Use</a></li>
                     <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
 
